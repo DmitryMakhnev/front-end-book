@@ -8,4 +8,4 @@ node_modules
 #css preprocessors
 .idea-scss-watcher-cache
 .sass-cache
-*.css
+styles/**/*.css
