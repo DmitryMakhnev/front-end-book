@@ -1,0 +1,14 @@
+@mixin after-clear(){
+    &:after{
+        content:'';
+        display: block;
+        overflow: hidden;
+        clear: both;
+        font-size:0;
+    }
+}
+
+@mixin box-sizing($rule: border-box){
+    -moz-box-sizing: $rule;
+    box-sizing: $rule;
+}

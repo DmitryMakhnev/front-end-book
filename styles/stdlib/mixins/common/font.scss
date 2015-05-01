@@ -1,0 +1,23 @@
+@import "../../../vars/entry";
+
+@mixin font-face($name, $path){
+    @font-face {
+        font-family: $name;
+        src: url($path + '.eot');
+        src: url($path + '.eot') format('embedded-opentype'),
+             url($path + '.woff') format('woff'),
+             url($path + '.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
+    }
+
+@mixin font(
+    $size: $mainFontSizeEM,
+    $lineHeight: $mainLineHeight,
+    $fontFamily: $mainFontFamily) {
+
+    font-size: $size;
+    line-height: $lineHeight;
+    font-family: $fontFamily;
+    }

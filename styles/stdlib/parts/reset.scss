@@ -1,0 +1,46 @@
+@import "../../vars/entry";
+@import "../entry";
+
+
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, p, a, span, img, blockquote, table, tr, th, td, input, textarea, select {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    @include font($mainFontSize);
+    color: $mainFontColor;
+    background: $bodyBackgroundColor;
+    vertical-align: baseline;
+    font-weight: normal;
+}
+
+table,
+tr,
+th,
+td {
+    border-collapse: collapse;
+    border: none
+}
+
+input,
+textarea {
+    @include font($mainFontSize);
+    color: $mainFontColor;
+    outline: none;
+}
+
+a {
+    cursor: pointer;
+    @include no-focus();
+}
+
+img {
+    border: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+

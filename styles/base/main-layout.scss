@@ -1,0 +1,128 @@
+@import "../vars/entry";
+@import "../stdlib/entry";
+
+/* reset and basis
+---------------------------------------------------------------------------------- */
+
+@import "../stdlib/parts/reset";
+
+/* /reset and basis
+---------------------------------------------------------------------------------- */
+
+/* Links
+---------------------------------------------------------------------------------- */
+
+a {
+    color: $linkColor;
+
+    &:visited {
+        color: $linkColor__visited;
+        }
+
+    @include hover() {
+        color: $linkColor__hover;
+        };
+
+    }
+
+/* /Links
+---------------------------------------------------------------------------------- */
+
+/* titles
+---------------------------------------------------------------------------------- */
+
+h1 {
+    @include font($fontSizeTitleMedium);
+    font-weight: bold;
+    margin: $gridStepDefault 0;
+    }
+
+h2 {
+    @include font($fontSizeTitleDefault);
+    font-weight: bold;
+    margin: $gridStepDefault 0;
+    }
+
+h3 {
+    @include font($fontSizeTitleSmall);
+    font-weight: bold;
+    margin: $gridStepDefault 0;
+    }
+
+/* /titles
+---------------------------------------------------------------------------------- */
+
+
+/* lists
+---------------------------------------------------------------------------------- */
+
+.default-list {
+    margin: $gridStepDefault $gridStepLarge;
+    list-style: disc;
+
+    & > li {
+        margin-top: $gridStepXXSmall;
+        }
+    }
+
+
+
+/* /lists
+---------------------------------------------------------------------------------- */
+
+
+
+/* text styles
+---------------------------------------------------------------------------------- */
+
+p {
+    margin: $gridStepDefault 0;
+    @include font($fontSizeDefault);
+    }
+
+blockquote {
+    @include font($fontSizeDefault);
+    margin: $gridStepDefault 0;
+    padding: $gridStepSmall;
+    font-style: italic;
+    background: $markersColor;
+
+    .quote-author {
+        @include font($fontSizeDefault);
+        margin-top: $gridStepXSmall;
+        font-style: italic;
+        text-align: right;
+        }
+
+    }
+
+
+
+.term {
+    font-weight: bold;
+    }
+
+.impressive {
+    font-style: italic;
+    }
+
+/* /text styles
+---------------------------------------------------------------------------------- */
+
+
+
+/* /titles
+---------------------------------------------------------------------------------- */
+
+/* main content
+---------------------------------------------------------------------------------- */
+
+.main-content {
+    width: $contentMaxWidth;
+    margin: 0 auto;
+    padding: $gridStepXXlarge;
+    background: $mainContentBackgroundColor;
+    }
+
+/* /main content
+---------------------------------------------------------------------------------- */

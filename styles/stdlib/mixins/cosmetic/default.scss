@@ -1,0 +1,43 @@
+@import "../../../vars/entry";
+
+@mixin hover () {
+    .isNotTouch &:hover {
+        @content;
+        }
+    }
+
+@mixin no-resize () {
+    resize: none;
+    }
+
+@mixin no-select () {
+    -khtml-user-select: none;
+      -moz-user-select: none;
+        -o-user-select: none;
+           user-select: none;
+    }
+
+@mixin no-focus () {
+    outline: none;
+
+    &:active {
+        outline: none;
+        }
+
+    &:focus {
+        outline: none;
+        }
+    
+    }
+
+@mixin block-clear () {
+    clear: both;
+    overflow: hidden;
+    }
+
+@mixin ms-input-clear() {
+    &::-ms-clear,
+    &::-ms-reveal {
+        display:none;
+        }
+    }

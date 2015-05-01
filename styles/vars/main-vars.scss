@@ -1,0 +1,76 @@
+/* basis colors
+---------------------------------------------------------------------------------- */
+
+$bodyBackgroundColor: #000;
+$markersColor: #fffacb;
+
+/* /basis colors
+---------------------------------------------------------------------------------- */
+
+
+
+/* font
+---------------------------------------------------------------------------------- */
+
+
+/* main font
+-------------------------------------------------- */
+
+$mainFontFamily: Helvetica, Arial, sans-serif;
+$mainFontColor: #000;
+$mainFontSize: 14px;
+$mainFontSizeEM: 1em;
+$mainLineHeight: 1.4;
+
+
+/* /main font */
+
+/* fonts sizes
+-------------------------------------------------- */
+
+$fontSizeXXSmall: .25em;
+$fontSizeXSmall: $fontSizeXXSmall * 2;
+$fontSizeSmall: $fontSizeXXSmall * 3;
+$fontSizeDefault: $fontSizeXXSmall * 4;
+$fontSizeMedium: $fontSizeXXSmall * 5;
+$fontSizeLarge: $fontSizeXXSmall * 6;
+$fontSizeXlarge: $fontSizeXXSmall * 7;
+$fontSizeXXlarge: $fontSizeXXSmall * 8;
+
+$fontSizeTitleXXSmall: $fontSizeXXSmall * 2;
+$fontSizeTitleXSmall: $fontSizeXXSmall * 4;
+$fontSizeTitleSmall: $fontSizeXXSmall * 6;
+$fontSizeTitleDefault: $fontSizeXXSmall * 8;
+$fontSizeTitleMedium: $fontSizeXXSmall * 10;
+$fontSizeTitleLarge: $fontSizeXXSmall * 12;
+$fontSizeTitleXLarge: $fontSizeXXSmall * 14;
+$fontSizeTitleXXLarge: $fontSizeXXSmall * 16;
+
+/* /fonts sizes */
+
+
+
+
+/* /font
+---------------------------------------------------------------------------------- */
+
+
+
+/* main content
+---------------------------------------------------------------------------------- */
+
+$mainContentBackgroundColor: #fff;
+
+/* /main content
+---------------------------------------------------------------------------------- */
+
+
+/* links
+---------------------------------------------------------------------------------- */
+
+$linkColor: #357892;
+$linkColor__hover: #C74D3E;
+$linkColor__visited: #6CB0C7;
+
+/* /links
+---------------------------------------------------------------------------------- */

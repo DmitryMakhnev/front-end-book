@@ -1,0 +1,23 @@
+/* grid steps
+---------------------------------------------------------------------------------- */
+
+$gridStepXXSmall: .25em;
+$gridStepXSmall: $gridStepXXSmall * 2;
+$gridStepSmall: $gridStepXXSmall * 3;
+$gridStepDefault: $gridStepXXSmall * 4;
+$gridStepMedium: $gridStepXXSmall * 5;
+$gridStepLarge: $gridStepXXSmall * 6;
+$gridStepXlarge: $gridStepXXSmall * 7;
+$gridStepXXlarge: $gridStepXXSmall * 8;
+
+/* /grid steps
+---------------------------------------------------------------------------------- */
+
+/* maxes/mines
+---------------------------------------------------------------------------------- */
+
+$contentMaxWidth: 900px;
+
+/* /maxes/mines
+---------------------------------------------------------------------------------- */
+
