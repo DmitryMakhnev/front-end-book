@@ -1,6 +1,11 @@
+#IDE
+.idea
+*.iml
+
+#modules
+node_modules
+
+#css preprocessors
 .idea-scss-watcher-cache
 .sass-cache
 *.css
-.idea
-node_modules
-*.iml
