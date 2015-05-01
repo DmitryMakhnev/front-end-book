@@ -1,2 +1,6 @@
 .idea-scss-watcher-cache
+.sass-cache
 *.css
+.idea
+node_modules
+*.iml
